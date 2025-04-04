@@ -1,3 +1,4 @@
+/* Estilo básico para la página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,4 +19,34 @@ header {
     background-color: #fff;
     border: 1px solid #ddd;
     min-height: 200px;
+    max-height: 400px;
+    overflow-y: auto; /* Hace que los mensajes adicionales se desplacen */
+}
+
+#input-area {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+#user-input {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #555;
 }
