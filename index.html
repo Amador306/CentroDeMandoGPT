@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro de Mando GPT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Este archivo es para los estilos -->
 </head>
 <body>
     <header>
         <h1>Centro de Mando GPT</h1>
     </header>
+
     <main>
+        <!-- Caja para mostrar los mensajes del chat -->
         <div id="chat-box">
-            <!-- Aquí va el contenido dinámico (como el chat) -->
-            <p>¡Bienvenido al Centro de Mando GPT!</p>
+            <!-- Aquí se añadirán los mensajes -->
+            <p>¡Hola! Bienvenido al Centro de Mando GPT. ¿Cómo puedo ayudarte?</p>
+        </div>
+
+        <!-- Área para escribir un mensaje -->
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button id="send-button">Enviar</button>
         </div>
     </main>
 
-    <script src="app.js"></script>
+    <script src="app.js"></script> <!-- Este archivo contiene la lógica de JavaScript -->
 </body>
 </html>
